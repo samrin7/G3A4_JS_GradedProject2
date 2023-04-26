@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="css/resume.css" />
+  </head>
+  <body>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search keywords..." />
+      <br /><br />
+      <button onclick="searchResume()">Search</button>
+    </div>
+    <div id="searchResult"></div>
+    <div id="error-message"></div>
+
+    <div class="navigation">
+      <button onclick="prevResume()">Previous</button>
+      <button onclick="nextResume()">Next</button>
+    </div>
+
+    <div id="wrapper">
+      <header>
+        <div>
+          <h1 id="name"></h1>
+          <h4 id="applied-for"></h4>
+        </div>
+        <img id="image" src="image/user.png" alt="image" />
+      </header>
+
+      <div id="info-box">
+        <h3>Personal Information</h3>
+        <p id="email"></p>
+        <p id="phone"></p>
+        <p id="profiles"></p>
+        <p id="address"></p>
+
+        <h3>Technical Skills</h3>
+        <p id="skills"></p>
+
+        <h3>Hobbies</h3>
+        <article id="interests"></article>
+      </div>
+
+      <main>
+        <h2>Work Experience in previous company</h2>
+        <article id="work"></article>
+        <h2>Projects:</h2>
+        <article id="projects"></article>
+        <h2>Education:</h2>
+        <ul>
+          <li><b>UG:</b><span id="ug"></span></li>
+          <li><b>PU:</b><span id="senior-secondary"></span></li>
+          <li><b>High School:</b><span id="high-school"></span></li>
+        </ul>
+        <h2>Internship:</h2>
+        <article id="internship"></article>
+        <h2>Achievements:</h2>
+        <ul id="achievements"></ul>
+      </main>
+    </div>
+    <div class="errorpage"> </div>
+    
+  <script src="js/resume.js"></script>
+  <script src="data/resume.json"></script>
+</html>

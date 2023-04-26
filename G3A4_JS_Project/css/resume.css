@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: honeydew;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  .search-container {
+    text-align: center;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    justify-content: center;
+    width: 30%;
+  }
+  
+  .search-container input {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 90%;
+    font-size: 1.2vw;
+  }
+  
+  .search-container button {
+    padding: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 25%;
+    font-size: 1vw;
+  }
+  
+  .search-container button:active {
+    background-color: #0056b3;
+  }
+  
+  #error-message {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+    color: red;
+  }
+  
+  .navigation {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .navigation button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+    width: 15%;
+    font-size: 1.3vw;
+    font-weight: bolder;
+  }
+  
+  .navigation button:active {
+    background-color: #0056b3;
+  }
+  
+  .navigation button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  #wrapper {
+    margin-top: 10px;
+    padding: 10px;
+    border:2px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px;
+  }
+  
+  #info-box {
+    margin-top: 10px;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    font-size: small;
+    background-color: pink;
+  }
+  
+  #info-box span {
+    font-weight: bold;
+  }
+  
+  h3 {
+   background-color: grey;
+  }
+  
+  header {
+    padding: 20px;
+    background-color: rgb(138, 216, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 16px;
+     gap: 32px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+    margin-left: 200px;
+    row-gap: 20px;
+    width: 800px;
+ }
+
+  h4 {
+    margin: 0;
+    font-size: 36px;
+    color: white;
+    text-align : center;
+    margin-left: 200px;
+    }
+  
+  h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+ }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+  }
+  
+  main {
+    padding: 20px;
+    margin-left: 270px;
+  }
+  
+  main h2 {
+    font-weight: bolder;
+  }
+
+    
+  
